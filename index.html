@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <title>LD Photography</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      margin-top: 30px;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .gallery-item {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 8px;
+    }
+
+    .gallery-caption {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>LD Photography</h1>
+
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <a href="gallery1/index.html">
+        <img src="gallery1/images/Cherry1.jpeg" alt="Cherry1">
+        <div class="gallery-caption">תמונות טבע</div>
+      </a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="gallery2/index.html">
+        <img src="gallery2/images/Cherry2.jpeg" alt="Cherry2">
+        <div class="gallery-caption">תמונות אורבניות</div>
+      </a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="gallery3/index.html">
+        <img src="gallery3/images/Cherry3.jpeg" alt="Cherry3">
+        <div class="gallery-caption">תמונות צבע</div>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
